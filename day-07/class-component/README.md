@@ -22,3 +22,6 @@ class Child extends Component {
 *props* is a means to send data from one component to another. We access props of a class based component using the *this* keyword.
 
 To get our data out from props, we have to write *props.data* everytime. We can avoid this repetition using destructuring.
+
+## Methods in class based components
+We access methods in class component. Most of the time different methods are written on the parent component and passed down to child components.
