@@ -9,7 +9,7 @@ export class Footer extends Component {
     return (
       <footer>
         <div className="footer-wrapper">
-            <p>Copyright 2022</p>
+            <p>Copyright {this.props.date.getFullYear()}</p>
         </div>
       </footer>
     )

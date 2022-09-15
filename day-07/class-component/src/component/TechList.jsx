@@ -5,7 +5,7 @@ class TechList extends Component {
         super(props)
     }
     render() {
-        const techs = ['HTML', 'CSS', 'JavaScript']
+        const {techs} = this.props
         const techsFormatted = techs.map((tech) => <li key={tech}>{tech}</li>)
         return techsFormatted
 

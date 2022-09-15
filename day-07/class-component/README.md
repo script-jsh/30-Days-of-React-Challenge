@@ -17,3 +17,8 @@ class Child extends Component {
     }
 }
 ```
+
+## Accessing *props* in Class Components
+*props* is a means to send data from one component to another. We access props of a class based component using the *this* keyword.
+
+To get our data out from props, we have to write *props.data* everytime. We can avoid this repetition using destructuring.

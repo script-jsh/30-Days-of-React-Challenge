@@ -11,7 +11,7 @@ class Main extends Component {
         <div className="main-wrapper">
           <p>Prerequisite to get started with react.js</p>
           <ul>
-            <TechList />
+            <TechList techs={this.props.techs} />
           </ul>
         </div>
       </main>
